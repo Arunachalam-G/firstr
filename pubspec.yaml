@@ -1,0 +1,50 @@
+name: race
+description: A new Flutter project.
+
+# Prevent accidental publishing to pub.dev.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.5 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flavour:
+    path: ./flavours
+  # For state management
+  # provider:
+  # For internet check
+  # connectivity_plus:
+  # For storing simple data
+  # shared_preferences:
+  # For handling user permission
+  # permission_handler:
+  # For crash analysis
+  # firebase_crashlytics:
+  # For fetching app version number
+  # package_info_plus:
+  # For opening url in other apps
+  # url_launcher:
+  # For decoding API response
+  # japx:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Enable generation of localized Strings from arb files.
+  generate: true
+
+  assets:
+    # Add assets from the images directory to the application.
+    - assets/images/
